@@ -16,8 +16,8 @@
 > apt-get upgrade
 > pkg install git
 > pkg install bash
-> git clone https://github.com/MrK4ZUT0/botwa
-> cd botwa
+> git clone https://github.com/bimbelku/Panpan-Slackbot
+> cd Panpan-Slackbot
 > bash install.sh
 > node index.js
 ```
@@ -28,13 +28,13 @@ Scan the qr code that appears, using whatsapp web!
 
 ## SOCIAL MEDIA
 
-* [INSTAGRAM FADHIL](https://instagram.com/nur.fdhl)
+* [INSTAGRAM PANPAN](https://instagram.com/kaumbodoh_)
 * [GROUP WHATSAPP](https://chat.whatsapp.com/IOH07I8Ud9R46soSkt2EB7)
 * [GROUP TELEGRAM](https://t.me/joinchat/FT_-G7e136-CWXTM)
-* [WHATSAPP](https://api.whatsapp.com/send?phone=6288221608614&text=Assalamualaikum)
+* [WHATSAPP](https://api.whatsapp.com/send?phone=6282236929603&text=Assalamualaikum)
 * [YOUTUBE](https://youtube.com/channel/UCdQHlF_G7XUaPCSHw-WMS0g)
-* [TWITTER](https://twitter.com/nurfdhl_)
-* [INSTAGRAM AFFIS](https://Instagram.com/affis_saputro123)
+* [TWITTER](https://twitter.com/kaumbodoh)
+* [INSTAGRAM UTAMA](https://Instagram.com/apasih.pan)
 
 ## FEATURE
 
@@ -59,7 +59,7 @@ Scan the qr code that appears, using whatsapp web!
 ---
 
 ## SPECIAL THANGKS TO🤝
-* [ALLAH SWT]
+* [ALLAH AMPIBI GAMING]
 * [AFFIS JUNIANTO](https://github.com/affisjunianto/botwasapv3)
 * [MAHANKBARBAR](https://github.com/MhankBarBar)
 * [FADHIL GRAPHY2](https://github.com/FdhlGraphy)
