@@ -1,5 +1,7 @@
 <div align="center">
-<img src="https:https://images4.alphacoders.com/641/641968.jpg" alt="Panpan Slack" width="500" />
+<img src="https:https://images4.alphacoders.com/641/641968.jpg" alt="𝐏𝐚𝐧𝐩𝐚𝐧-𝐒𝐥𝐚𝐜𝐤
+
+" width="500" />
 
 
 <h3 align="center">Made with ❤️ by</h3>
