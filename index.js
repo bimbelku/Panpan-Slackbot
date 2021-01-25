@@ -1,9 +1,11 @@
 /*
-*DILARANG RECODE TANPA CREDIT!! NO CREDIT = GABAKAL UP SC LAGI!!
-*AWAS AE KALO KETAUAN_-
+*SCRIPT INI SUDAH DI MODIFIKAS OLEH SAYA SENDIRI : PANPAN SLACK-BOT!!
+*JANGAN MERUBAH SCRIPT INI_-
 *SUBSCRIBE YOUTUBE KAMI
+*THANKS TO
 *Fadhil : Fadhil Graphy
 *Affis : Ampibi Gaming
+
 */
 
 const {
@@ -46,13 +48,13 @@ const vcard = 'BEGIN:VCARD\n' //GANTI NO DAN NAMA DIBAWAH INI JADI PUNYA LU
             + 'ORG: Pengembang Fadhil Bot;\n' //MYBOT TEAM
             + 'TEL;type=CELL;type=VOICE;waid=6288221608614:+62 882-2160-8614\n' 
             + 'END:VCARD' //SCRIPT ORI FROM MAHANKBARBAR
-prefix = '#'
+prefix = '$'
 blocked = []   
-limitawal = '20'
+limitawal = '99999'
 cr = '*FADHIL BOT*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6288221608614@s.whatsapp.net","6283102650464@s.whatsapp.net"] //ganti nomor lu
+const ownerNumber = ["6282236929603@s.whatsapp.net","6285705804836@s.whatsapp.net"] //ganti nomor lu
 /************************************/
 
        
@@ -261,7 +263,7 @@ function kyun(seconds){
 const client = new WAConnection()
    client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-   console.log(color('[','white'),color('∆','red'),color(']','white'),color('qr code is ready. subscribe','white'),color('YOU','red'),color('TUBE','white'),color('Fadhil Graphy','yellow'))
+   console.log(color('[','white'),color('∆','red'),color(']','white'),color('qr code is ready. subscribe','white'),color('YOU','red'),color('TUBE','white'),color('Panpan Slack-Bot','yellow'))
 })
 
 client.on('credentials-updated', () => {
@@ -285,7 +287,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Hallo @${num.split('@')[0]}\Selamat datang di group *${mdata.subject}* yang betah ya di sini`
+				teks = 'Wooi @${num.split('@')[0]}\Selamat datang di group *${mdata.subject}* semoga betah ya di sini`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -295,7 +297,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `akhirnya beban group berkurang 𝟭,bye bye🥳 @${num.split('@')[0]} jasamu akan di kubur dalam²`
+				teks = `Wooii Mau Kemana Lu Tod @${num.split('@')[0]} `
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -654,7 +656,7 @@ client.on('group-participants-update', async (anu) => {
                 data = await fetchJson(`https://docs-jojo.herokuapp.com/api/infonomor?no=${body.slice(11)}`)
                 if (data.error) return reply(data.error)
                 if (data.result) return reply(data.result)
-                hasil = `╠➥ internasional : ${data.international}\n╠➥ nomor : ${data.nomor}\n╠➥ operator : ${data.op}`
+                hasil = `╠─⌔ internasional : ${data.international}\n╠─⌔ nomor : ${data.nomor}\n╠─⌔ operator : ${data.op}`
                 reply(hasil)
                 await limitAdd(sender)
 					break 
@@ -789,7 +791,7 @@ client.on('group-participants-update', async (anu) => {
 					case 'grouplist':
 					if (!isRegistered) return reply(ind.noregis())
 					client.updatePresence(from, Presence.composing) 
-					teks = `\`\`\`Ini adalah list group XPTN BOT :\n\n\`\`\``
+					teks = `\`\`\`Ini adalah list group ${groupId.length}:\n\n\`\`\``
 					no = 0
 					for (let hehehe of groupId) {
 						no += 1
@@ -1155,7 +1157,7 @@ client.on('group-participants-update', async (anu) => {
 					ranm = getRandom('.mp3')
 					rano = getRandom('.ogg')
 					dtt.length > 300
-					? reply('lah teks nya kepanjangan bambang😤')
+					? reply('lah teks nya kepanjangan tod')
 					: gtts.save(ranm, dtt, function() {
 						exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
 							fs.unlinkSync(ranm)
@@ -1294,7 +1296,7 @@ client.on('group-participants-update', async (anu) => {
             case 'admin':
             case 'owner':
             case 'creator':
-                  client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
+                  client.sendMessage(from, {displayname: "Panpan", vcard: vcard}, MessageType.contact, { quoted: mek})
                   client.sendMessage(from, 'Tuh nomer owner ku >_<, jangan spam atau ku block kamu',MessageType.text, { quoted: mek} )
 					break    
            case 'setname':
@@ -1489,7 +1491,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'clone':
 					if (!isGroup) return reply(ind.groupo())
 					if (!isOwner) return reply(ind.ownerg()) 
-					if (args.length < 1) return reply(' *TAG YANG MAU DI CLONE!!!* ')
+					if (args.length < 1) return reply(' *TAG MEMBER YANG MAU DI CLONE!!!* ')
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag cvk')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
 					let { jid, id, notify } = groupMembers.find(x => x.jid === mentioned)
