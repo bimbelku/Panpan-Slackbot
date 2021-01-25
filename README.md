@@ -1,8 +1,8 @@
 <div align="center">
-<img src="https:https://images4.alphacoders.com/641/641968.jpg" alt="𝐏𝐚𝐧𝐩𝐚𝐧-𝐒𝐥𝐚𝐜𝐤" width="500" />
+<img src="https:https://images4.alphacoders.com/641/641968.jpg" alt="𝘽𝙊𝙏 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋" width="500" />
 
 
-<h3 align="center">Made with ❤️ by</h3>
+<h3 align="center">𝙋𝘼𝙉𝙋𝘼𝙉 𝙎𝙇𝘼𝘾𝙆-𝘽𝙊𝙏</h3>
 <p align="center">
   <a href="https://github.com/MrK4ZUT0"><img src="https://avatars.githubusercontent.com/u/76678504?s=400&u=85145113789bd1b2db84778ce7eefc30aa017383&v=4" height="128" width="128" /></a>
   <a href="https://github.com/affisjunianto"><img src="https://j.top4top.io/p_18503y4jm1.jpg" height="128" width="128" /></a>
@@ -29,12 +29,12 @@ Scan the qr code that appears, using whatsapp web!
 ## SOCIAL MEDIA
 
 * [INSTAGRAM PANPAN](https://instagram.com/kaumbodoh_)
-* [GROUP WHATSAPP](https://chat.whatsapp.com/IOH07I8Ud9R46soSkt2EB7)
-* [GROUP TELEGRAM](https://t.me/joinchat/FT_-G7e136-CWXTM)
-* [WHATSAPP](https://api.whatsapp.com/send?phone=6282236929603&text=Assalamualaikum)
-* [YOUTUBE](https://youtube.com/channel/UCdQHlF_G7XUaPCSHw-WMS0g)
+* [GROUP WHATSAPP](https://chat.whatsapp.com/D2rammOC8oc42MZkNuO7M8)
+* [GITHUB](https://github.com/bimbel/Panpan-Slackbot)
+* [WHATSAPP ME](https://api.whatsapp.com/send?phone=6282236929603&text=Assalamualaikum)
+* [TRAKTEER ID](https://trakteer.id/panpan-youth)
 * [TWITTER](https://twitter.com/kaumbodoh)
-* [INSTAGRAM ASLI](https://Instagram.com/apasih.pan)
+* [INSTAGRAM REAL](https://Instagram.com/apasih.pan)
 
 ## FEATURE
 
