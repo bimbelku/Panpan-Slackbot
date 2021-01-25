@@ -4,8 +4,8 @@
 
 <h3 align="center">𝙋𝘼𝙉𝙋𝘼𝙉 𝙎𝙇𝘼𝘾𝙆-𝘽𝙊𝙏</h3>
 <p align="center">
-  <a href="https://github.com/MrK4ZUT0"><img src="https://avatars.githubusercontent.com/u/76678504?s=400&u=85145113789bd1b2db84778ce7eefc30aa017383&v=4" height="128" width="128" /></a>
-  <a href="https://github.com/affisjunianto"><img src="https://j.top4top.io/p_18503y4jm1.jpg" height="128" width="128" /></a>
+  <a href="https://github.com/bimbelku"><img src="https://avatars.githubusercontent.com/u/76678504?s=400&u=85145113789bd1b2db84778ce7eefc30aa017383&v=4" height="128" width="128" /></a>
+  <a href="https://github.com/Panpan-Slackbot"><img src="https://j.top4top.io/p_18503y4jm1.jpg" height="128" width="128" /></a>
  </p>
   
 ## INSTALLATION
