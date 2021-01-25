@@ -44,11 +44,11 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n' //GANTI NO DAN NAMA DIBAWAH INI JADI PUNYA LU
             + 'VERSION:3.0\n' //JANGAN HILANGKAN CREDIT
-            + 'FN:Fadhil Graphy\n' //PENGEMBANG BY :
-            + 'ORG: Pengembang Fadhil Bot;\n' //MYBOT TEAM
+            + 'FN:Slack-Bot\n' //PENGEMBANG BY :
+            + 'ORG:Panpan Slack-Bot\n' //MYBOT TEAM
             + 'TEL;type=CELL;type=VOICE;waid=6288221608614:+62 882-2160-8614\n' 
             + 'END:VCARD' //SCRIPT ORI FROM MAHANKBARBAR
-prefix = '$'
+prefix = '!'
 blocked = []   
 limitawal = '99999'
 cr = '*FADHIL BOT*'
