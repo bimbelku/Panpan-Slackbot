@@ -28,13 +28,13 @@ Scan the qr code that appears, using whatsapp web!
 
 ## SOCIAL MEDIA
 
-* [INSTAGRAM PANPAN](https://instagram.com/kaumbodoh_)
+* [INSTAGRAM](https://instagram.com/kaumbodoh_)
 * [GROUP WHATSAPP](https://chat.whatsapp.com/D2rammOC8oc42MZkNuO7M8)
 * [GITHUB](https://github.com/bimbel/Panpan-Slackbot)
 * [WHATSAPP ME](https://api.whatsapp.com/send?phone=6282236929603&text=Assalamualaikum)
 * [TRAKTEER ID](https://trakteer.id/panpan-youth)
 * [TWITTER](https://twitter.com/kaumbodoh)
-* [INSTAGRAM REAL](https://Instagram.com/apasih.pan)
+* [INSTAGRAM 1](https://Instagram.com/apasih.pan)
 
 ## FEATURE
 
